@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1DF361E-4803-4A39-83F1-CD47130DBD4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HarmonizedApp</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReadAndWriteInExcel\LireEcrireSurExcel\LireEcrireSurExcel\bin\Debug\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="icsharpcode.sharpziplib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\icsharpcode.sharpziplib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.4.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Version Originale de declaration chez OPTISOFT\APPLICATION POUR ADP\splitPDF\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa, Version=5.4.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Version Originale de declaration chez OPTISOFT\APPLICATION POUR ADP\splitPDF\bin\Debug\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra, Version=5.4.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Version Originale de declaration chez OPTISOFT\APPLICATION POUR ADP\splitPDF\bin\Debug\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Version Originale de declaration chez OPTISOFT\APPLICATION POUR ADP\splitPDF\bin\Debug\Microsoft.Office.Interop.Outlook.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Version Originale de declaration chez OPTISOFT\APPLICATION POUR ADP\splitPDF\bin\Debug\office.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib, Version=0.31.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceuil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceuil.Designer.cs">
+      <DependentUpon>Acceuil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account Plan about GL File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account Plan about GL File.Designer.cs">
+      <DependentUpon>Account Plan about GL File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add Rubrique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Rubrique.Designer.cs">
+      <DependentUpon>Add Rubrique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationADPDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplicationADPDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Code Memo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code Memo.Designer.cs">
+      <DependentUpon>Code Memo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consult Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consult Company.Designer.cs">
+      <DependentUpon>Consult Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\BLL\clsGrossToNetBLL.cs" />
+    <Compile Include="Manager\BLL\clsRubricStructureBLL.cs" />
+    <Compile Include="Manager\clsBD.cs" />
+    <Compile Include="Manager\DAL\clsAccessDB.cs" />
+    <Compile Include="Edit Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Company.Designer.cs">
+      <DependentUpon>Edit Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Rubric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Rubric.Designer.cs">
+      <DependentUpon>Edit Rubric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Extract SGL File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extract SGL File.Designer.cs">
+      <DependentUpon>Extract SGL File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMappingRubric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMappingRubric.Designer.cs">
+      <DependentUpon>frmMappingRubric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewRubric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewRubric.Designer.cs">
+      <DependentUpon>frmNewRubric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gross To Net.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gross To Net.Designer.cs">
+      <DependentUpon>Gross To Net.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Identification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Identification.Designer.cs">
+      <DependentUpon>Identification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Import Data Fix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Import Data Fix.Designer.cs">
+      <DependentUpon>Import Data Fix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Import of Gross to Net.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Import of Gross to Net.Designer.cs">
+      <DependentUpon>Import of Gross to Net.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Import Rubrique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Import Rubrique.Designer.cs">
+      <DependentUpon>Import Rubrique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insert Code Memo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert Code Memo.Designer.cs">
+      <DependentUpon>Insert Code Memo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LesUtilisateurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LesUtilisateurs.Designer.cs">
+      <DependentUpon>LesUtilisateurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List GL File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List GL File.Designer.cs">
+      <DependentUpon>List GL File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List Of Rubrique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List Of Rubrique.Designer.cs">
+      <DependentUpon>List Of Rubrique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liste Des Utilisateurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liste Des Utilisateurs.Designer.cs">
+      <DependentUpon>Liste Des Utilisateurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\BO\clsRubricStructureBO.cs" />
+    <Compile Include="Manager\ContainSEP.cs" />
+    <Compile Include="Manager\ControlDeSaisie.cs" />
+    <Compile Include="Manager\DAL\clsGrossToNetDAL.cs" />
+    <Compile Include="Manager\DAL\clsRubricStructureDAL.cs" />
+    <Compile Include="Manager\DataArticle.cs" />
+    <Compile Include="Manager\DataRaison.cs" />
+    <Compile Include="Manager\DevinerSens.cs" />
+    <Compile Include="Manager\EnteteSGL.cs" />
+    <Compile Include="Manager\EnteteSGN.cs" />
+    <Compile Include="Manager\EnteteSGR.cs" />
+    <Compile Include="Manager\EnteteSRF.cs" />
+    <Compile Include="Manager\Entete_SVE.cs" />
+    <Compile Include="Manager\Entete_SVR.cs" />
+    <Compile Include="Manager\Extract SEP.cs" />
+    <Compile Include="Manager\ExtractionSRF.cs" />
+    <Compile Include="Manager\ExtractSGN.cs" />
+    <Compile Include="Manager\FormatDate.cs" />
+    <Compile Include="Manager\ManagerDAO.cs" />
+    <Compile Include="Manager\ManagerDAOSQL.cs" />
+    <Compile Include="Manager\Personne.cs" />
+    <Compile Include="Manager\ServiceDAO.cs" />
+    <Compile Include="Manager\TraitementGLFILE.cs" />
+    <Compile Include="Manager\TraitementGRFile.cs" />
+    <Compile Include="Manager\TraitementSVE.cs" />
+    <Compile Include="Manager\TraitementSVR.cs" />
+    <Compile Include="Modifier Utilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modifier Utilisateur.Designer.cs">
+      <DependentUpon>Modifier Utilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPR11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPR11.Designer.cs">
+      <DependentUpon>OPR11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPR15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPR15.Designer.cs">
+      <DependentUpon>OPR15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPR17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPR17.Designer.cs">
+      <DependentUpon>OPR17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPR18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPR18.Designer.cs">
+      <DependentUpon>OPR18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPR8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPR8.Designer.cs">
+      <DependentUpon>OPR8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parameter Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parameter Company.Designer.cs">
+      <DependentUpon>Parameter Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parameter Extraction PDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parameter Extraction PDF.Designer.cs">
+      <DependentUpon>Parameter Extraction PDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pay Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pay Report.Designer.cs">
+      <DependentUpon>Pay Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment Report.Designer.cs">
+      <DependentUpon>Payment Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Acceuil.resx">
+      <DependentUpon>Acceuil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account Plan about GL File.resx">
+      <DependentUpon>Account Plan about GL File.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Rubrique.resx">
+      <DependentUpon>Add Rubrique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code Memo.resx">
+      <DependentUpon>Code Memo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consult Company.resx">
+      <DependentUpon>Consult Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Company.resx">
+      <DependentUpon>Edit Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Rubric.resx">
+      <DependentUpon>Edit Rubric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extract SGL File.resx">
+      <DependentUpon>Extract SGL File.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMappingRubric.resx">
+      <DependentUpon>frmMappingRubric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewRubric.resx">
+      <DependentUpon>frmNewRubric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gross To Net.resx">
+      <DependentUpon>Gross To Net.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Identification.resx">
+      <DependentUpon>Identification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Import Data Fix.resx">
+      <DependentUpon>Import Data Fix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Import of Gross to Net.resx">
+      <DependentUpon>Import of Gross to Net.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Import Rubrique.resx">
+      <DependentUpon>Import Rubrique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LesUtilisateurs.resx">
+      <DependentUpon>LesUtilisateurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List GL File.resx">
+      <DependentUpon>List GL File.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List Of Rubrique.resx">
+      <DependentUpon>List Of Rubrique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liste Des Utilisateurs.resx">
+      <DependentUpon>Liste Des Utilisateurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modifier Utilisateur.resx">
+      <DependentUpon>Modifier Utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPR11.resx">
+      <DependentUpon>OPR11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPR15.resx">
+      <DependentUpon>OPR15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPR17.resx">
+      <DependentUpon>OPR17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPR18.resx">
+      <DependentUpon>OPR18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPR8.resx">
+      <DependentUpon>OPR8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parameter Company.resx">
+      <DependentUpon>Parameter Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parameter Extraction PDF.resx">
+      <DependentUpon>Parameter Extraction PDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pay Report.resx">
+      <DependentUpon>Pay Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment Report.resx">
+      <DependentUpon>Payment Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGR.resx">
+      <DependentUpon>SGR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRF.resx">
+      <DependentUpon>SRF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Structure.resx">
+      <DependentUpon>Structure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SVE.resx">
+      <DependentUpon>SVE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SVR.resx">
+      <DependentUpon>SVR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Synchronisation Code Memo.resx">
+      <DependentUpon>Synchronisation Code Memo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update Data GL File.resx">
+      <DependentUpon>Update Data GL File.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SGR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGR.Designer.cs">
+      <DependentUpon>SGR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRF.Designer.cs">
+      <DependentUpon>SRF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Structure.Designer.cs">
+      <DependentUpon>Structure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SVE.Designer.cs">
+      <DependentUpon>SVE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SVR.Designer.cs">
+      <DependentUpon>SVR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronisation Code Memo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Synchronisation Code Memo.Designer.cs">
+      <DependentUpon>Synchronisation Code Memo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update Data GL File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update Data GL File.Designer.cs">
+      <DependentUpon>Update Data GL File.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Paint Interface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pressing.png" />
+    <None Include="bin\Debug\ARTICLE.png" />
+    <None Include="bin\Debug\CLT.png" />
+    <None Include="bin\Debug\CONS.png" />
+    <None Include="bin\Debug\ARTCONS.png" />
+    <None Include="bin\Debug\AJART.png" />
+    <None Include="bin\Debug\ENTRE.png" />
+    <None Include="bin\Debug\SORTI.png" />
+    <None Include="bin\Debug\HIS.png" />
+    <None Include="bin\Debug\ADP.png" />
+    <None Include="Resources\ABC.png" />
+    <None Include="Resources\wael.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZZZZZ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ApplicationADPDataSet.xsc">
+      <DependentUpon>ApplicationADPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ApplicationADPDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ApplicationADPDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ApplicationADPDataSet.xss">
+      <DependentUpon>ApplicationADPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bin\Debug\abc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

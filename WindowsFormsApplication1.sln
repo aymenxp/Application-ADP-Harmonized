@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{D1DF361E-4803-4A39-83F1-CD47130DBD4C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HARMONIZED_REPORT", "HARMONIZED_REPORT\HARMONIZED_REPORT.vdproj", "{EF6FF608-B703-4B2B-AF65-587396FA7FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1DF361E-4803-4A39-83F1-CD47130DBD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DF361E-4803-4A39-83F1-CD47130DBD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DF361E-4803-4A39-83F1-CD47130DBD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DF361E-4803-4A39-83F1-CD47130DBD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6FF608-B703-4B2B-AF65-587396FA7FBC}.Debug|Any CPU.ActiveCfg = Debug
+		{EF6FF608-B703-4B2B-AF65-587396FA7FBC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
