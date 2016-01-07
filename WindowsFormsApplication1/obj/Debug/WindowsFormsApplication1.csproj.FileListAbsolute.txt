@@ -1708,3 +1708,47 @@ C:\Users\alya\Pictures\TRAVAIL DE WAEL POUR ADP STREAMLINE\HARMONIZED REPORT\App
 C:\Users\alya\Pictures\TRAVAIL DE WAEL POUR ADP STREAMLINE\HARMONIZED REPORT\Application ADP 23-12-2015 - Dynamic Rubric\WindowsFormsApplication1\obj\Debug\HarmonizedApp.SVR.resources
 C:\Users\alya\Pictures\TRAVAIL DE WAEL POUR ADP STREAMLINE\HARMONIZED REPORT\Application ADP 23-12-2015 - Dynamic Rubric\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Synchronisation_Code_Memo.resources
 C:\Users\alya\Pictures\TRAVAIL DE WAEL POUR ADP STREAMLINE\HARMONIZED REPORT\Application ADP 23-12-2015 - Dynamic Rubric\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Update_Data_GL_File.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Acceuil.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Account_Plan_about_GL_File.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Add_Rubrique.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Code_Memo.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Consult_Company.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Edit_Company.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Edit_Rubric.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Extract_SGL_File.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.frmMappingRubric.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.frmNewRubric.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Gross_To_Net.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Identification.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Import_Data_Fix.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Import_of_Gross_to_Net.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Import_Rubrique.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.LesUtilisateurs.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.List_GL_File.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.List_Of_Rubrique.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Liste_Des_Utilisateurs.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Modifier_Utilisateur.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.OPR11.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.OPR15.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.OPR17.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.OPR18.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.OPR8.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Parameter_Company.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Parameter_Extraction_PDF.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Pay_Report.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Payment_Report.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Properties.Resources.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.SGR.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.SRF.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Structure.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.SVE.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.SVR.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Synchronisation_Code_Memo.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\HarmonizedApp.Update_Data_GL_File.resources
+C:\HarmonizedAPP\Application-ADP-Harmonized\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
